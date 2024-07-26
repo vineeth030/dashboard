@@ -34,8 +34,7 @@ function DefaultLayout(){
                         Header
                     </div>
                     <div>
-                        {user.name} 
-                        <a href="#" className="btn btn-logout" onClick={onLogout}>Logout</a>
+                        {user.name} <a href="#" className="btn btn-primary" onClick={onLogout}> Logout</a>
                     </div>
                 </header>
                 <main>
